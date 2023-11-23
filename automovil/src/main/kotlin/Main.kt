@@ -1,7 +1,15 @@
+import coche.cars
+import coche.persona
 fun main(args: Array<String>) {
-    println("Hello World!")
-
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    val conductor = persona()
+    val coche = cars()
+    conductor.nombre = "juan"
+    conductor.apellido = "perez"
+    conductor.edad = 18
+    coche.marca = "renaul"
+    coche.modelo = "megane"
+    coche.matricula = "7766gkx"
+    coche.año = 2009
+    conductor.datos()
+    coche.coche()
 }
