@@ -6,10 +6,10 @@ class persona (
 ) {
     var apellido = " "
     constructor(nombre: String, apellido: String, edad: Int) : this(nombre, edad) {
+        fun datos (){
+            print("El conductor es $nombre apellido $apellido de $edad")
 
+        }
     }
-    fun datos (){
-        print("El conductor es $nombre apellido $apellido de $edad")
 
-    }
 }
