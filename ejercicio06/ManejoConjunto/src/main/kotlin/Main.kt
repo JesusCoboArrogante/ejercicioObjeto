@@ -2,14 +2,14 @@ package org.example
 
 import org.example.models.matematicas
 
+
 fun main() {
-    val a = matematicas()
-
-    a.parteA = arrayOf("x,y,z")
-
-    for (i in a.parteA.size){
-        
+    val a = matematicas(arrayOf("x","y","z"))
+    val prueba = arrayOf("d","y","o")
+    for (i in a.a.indices){
+        println(a.a[i])
     }
-    println(a.parteA)
-    println(a.parteB)
+    println(a.arrais(prueba))
+
+
 }
