@@ -3,13 +3,12 @@ package org.example
 import org.example.models.matematicas
 
 fun main() {
-    val a = matematicas()
+    var b = arrayOf("a","b","c")
+    val a = matematicas(partec = b )
+    println(?)
 
-    a.parteA = arrayOf("x,y,z")
 
-    for (i in a.parteA.size){
-        
-    }
-    println(a.parteA)
-    println(a.parteB)
+
+
 }
+
