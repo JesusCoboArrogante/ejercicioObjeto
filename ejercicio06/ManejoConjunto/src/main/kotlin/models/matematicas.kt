@@ -1,12 +1,13 @@
 package org.example.models
 
-class matematicas(ejemplo: Array<String>) {
-    val a = arrayOf("a","b","c")
-    val b = arrayOf()
-    fun arrais(prueba: Array<String>) {
+class matematicas {
+    var b = arrayOfNulls<String>(8)
 
-        for (i in a.indices){
-            println(a[i])
+
+    fun arrais() {
+
+        for (i in b.indices){
+            println(b[i])
         }
     }
 }
